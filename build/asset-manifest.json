@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc1c1970.css",
+    "main.js": "/static/js/main.9e006449.js",
+    "static/js/787.57ad7ddb.chunk.js": "/static/js/787.57ad7ddb.chunk.js",
+    "static/media/Skills..png": "/static/media/Skills..5a1c44d287e76a21b1d1.png",
+    "static/media/Gradient-4.png": "/static/media/Gradient-4.eff58bb0420656ddb853.png",
+    "static/media/Me.png": "/static/media/Me.1f00a9b0d834910dacfb.png",
+    "static/media/project1.png": "/static/media/project1.acf0db5083a2a127b049.png",
+    "static/media/card3.png": "/static/media/card3.d1ea00fe38922a6b7d56.png",
+    "static/media/card4.png": "/static/media/card4.9dad0ae8d11f06d491bf.png",
+    "static/media/card2.png": "/static/media/card2.688220ce24608c93d3e7.png",
+    "static/media/card1.png": "/static/media/card1.6acc064c970d32a697d3.png",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
+    "main.bc1c1970.css.map": "/static/css/main.bc1c1970.css.map",
+    "main.9e006449.js.map": "/static/js/main.9e006449.js.map",
+    "787.57ad7ddb.chunk.js.map": "/static/js/787.57ad7ddb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc1c1970.css",
+    "static/js/main.9e006449.js"
+  ]
+}
