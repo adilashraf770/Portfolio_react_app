@@ -1,0 +1,69 @@
+// .text-pop-up-right {
+//     -webkit-animation: text-pop-up-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+//     animation: text-pop-up-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+// }
+
+
+// @-webkit-keyframes text-pop-up-right {
+//     0% {
+//         -webkit-transform: translateX(0);
+//         transform: translateX(0);
+//         -webkit-transform-origin: 50% 50%;
+//         transform-origin: 50% 50%;
+//         text-shadow: none;
+//     }
+
+//     100% {
+//         -webkit-transform: translateX(50px);
+//         transform: translateX(50px);
+//         -webkit-transform-origin: 50% 50%;
+//         transform-origin: 50% 50%;
+//         text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+//     }
+// }
+
+// @keyframes text-pop-up-right {
+//     0% {
+//         -webkit-transform: translateX(0);
+//         transform: translateX(0);
+//         -webkit-transform-origin: 50% 50%;
+//         transform-origin: 50% 50%;
+//         text-shadow: none;
+//     }
+
+//     100% {
+//         -webkit-transform: translateX(50px);
+//         transform: translateX(50px);
+//         -webkit-transform-origin: 50% 50%;
+//         transform-origin: 50% 50%;
+//         text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+//     }
+// }
+
+
+.text-animation {
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 3s steps(100) 2s 1 normal both, blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: hsl(0, 0%, 80%);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}

@@ -1,0 +1,40 @@
+@import './sass/colors';
+@import './sass/bootstrap';
+@import './sass/header';
+@import './sass/home';
+@import './sass/about';
+@import './sass/work';
+@import './sass/card';
+@import './sass/skill';
+@import './sass/projects';
+@import './sass/projectcard';
+@import './sass/contact';
+@import './sass/animation';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primary;
+    color: $white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

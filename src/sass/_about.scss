@@ -1,0 +1,99 @@
+.about {
+    min-height: 100vh;
+
+    .about-container {
+        margin: 4rem 0;
+    }
+
+    .text-container-1 {
+        margin-bottom: 4rem;
+    }
+
+    .text-container-1 h1 {
+        font-family: $font-family2;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 90px;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+
+    .facebook {
+        color: rgb(30, 30, 227);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+
+        }
+    }
+
+    .text-container-1 h4 {
+        font-family: $font-family2;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+
+    .text-container-2 h4 {
+        font-family: $font-family2;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+
+}
+
+//media query 1 
+@media screen and (max-width:770px) {
+    .about {
+        .text-container-1 h1 {
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 85px;
+        }
+
+        .text-container-1 h4 {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 34px;
+
+        }
+
+        .text-container-2 h4 {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 34px;
+        }
+    }
+}
+
+//media query 2
+@media screen and (max-width:550px) {
+    .about {
+        .text-container-1 {
+            margin-bottom: 2rem;
+        }
+
+        .text-container-1 h1 {
+            font-size: 38px;
+            line-height: 48px;
+            letter-spacing: 0.02em;
+        }
+
+        .text-container-1 h4 {
+            margin-top: 0.5rem;
+            font-size: 15px;
+            line-height: 22px;
+        }
+
+        .text-container-2 h4 {
+            font-size: 15px;
+            line-height: 22px;
+        }
+    }
+}

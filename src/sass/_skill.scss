@@ -1,0 +1,55 @@
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3rem 0;
+    padding: 3rem 0;
+}
+
+.skill-head h3 {
+    font-family: $font-family2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: $white;
+}
+
+.skill-head p {
+    font-family: $font-family2;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: $white;
+}
+
+.skill-img-container {
+    min-width: 220px;
+}
+
+.head {
+    color: $text-color;
+}
+
+
+@media screen and (max-width: 500px) {
+    .skill-head h3 {
+        font-family: $font-family2;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+
+    .skill-head p {
+        font-family: $font-family2;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: $white;
+    }
+}

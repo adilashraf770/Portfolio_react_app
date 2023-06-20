@@ -1,0 +1,25 @@
+.contact {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contact-card-icons {
+    max-width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-card-text-container p {
+    max-width: 700px;
+}
