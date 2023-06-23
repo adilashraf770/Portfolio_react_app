@@ -15,7 +15,6 @@
         line-height: 36px;
         letter-spacing: 0.78px;
         color: $white;
-        // letter-spacing: 7px;
 
     }
 
@@ -23,7 +22,9 @@
         color: $text-color;
     }
 
-
+    .img-fluid{
+        max-width: 60%;
+    }
     .img-container img {
         box-shadow: $secondary 102px 10px 200 4px;
         border-radius: 150px;
