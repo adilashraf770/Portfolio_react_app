@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className='contact-card-text-container'>
                     <p className="mb-0">I'm currently looking to join a cross-functional team that values improving people's lives
                         through accessible design. or have a project in mind? Let's connect.</p>
-                    <p className='mb-0 mt-3' ><a href="mailto:smadal770@gmail.com" className='text-white'  >kamranashraf@gmail.com</a></p>
+                    <p className='mb-0 mt-3' ><a href="mailto:finalen2888@gmail.com" className='text-white'  >kamranashraf@gmail.com</a></p>
                 </div>
                 <div className='contact-card-icons'>
                     <div>
